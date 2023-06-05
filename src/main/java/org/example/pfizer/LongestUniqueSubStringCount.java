@@ -6,7 +6,7 @@ package org.example.pfizer;
  *
  * The solution:  In linear time, this approach uses a sliding window technique
  * to identify non-repeating character substrings.  When we encounter a repeating,
- * character, we to a point after repeated character
+ * character, we jump to a point after repeated character
  */
 public class LongestUniqueSubStringCount {
 

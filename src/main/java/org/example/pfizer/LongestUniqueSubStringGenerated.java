@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  *
  * The solution:  In linear time, this approach uses a sliding window technique
  * to identify non-repeating character substrings.  When we encounter a repeating,
- * character, we to a point after repeated character
+ * character, we jump to a point after repeated character
  *
  * This class actually collects a list of the generated non-repeating substrings rather than just
  * tracking the maximum count.
